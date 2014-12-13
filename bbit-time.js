@@ -23,12 +23,6 @@ BBIT.time = {
         "Friday",
         "Saturday"
     ],
-    /**
-     * Converts a UNIX timestamp to date
-     *
-     * @param input number|string   [Optional] UNIX timestamp OR Date String
-     * @returns object
-     */
     date: function(input){
         var date;
         if (typeof input === "number") {
